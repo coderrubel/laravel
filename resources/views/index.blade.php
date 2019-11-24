@@ -42,6 +42,9 @@
             <a class="nav-link" href="{{URL::to('blog')}}">Blog</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="{{route('post')}}">Posts</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="{{URL::to('about')}}">About</a>
           </li>
           <li class="nav-item">

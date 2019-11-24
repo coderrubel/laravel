@@ -9,4 +9,8 @@ Route::get('/contact',function(){
     return view('contact');
 });
 Route::get('/blog','rubel@blog')->name('blog');
-Route::get('/mywork','protfolio@Protfolio')->name('protfolio');
+Route::get('/protfolio','protfolio@Protfolio')->name('protfolio');
+
+//post --
+Route::get('/catagori','posts@catagori')->name('post');
+Route::get('/stor','posts@StorePost')->name('stor');
